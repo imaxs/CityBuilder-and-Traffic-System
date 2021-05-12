@@ -1,0 +1,2731 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &176201961360914054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2073662633707275580}
+  - component: {fileID: 4005366110230752243}
+  m_Layer: 0
+  m_Name: RoadPoint (1)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2073662633707275580
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176201961360914054}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.5, y: 0.5, z: 3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1703215970286324160}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4005366110230752243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176201961360914054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints:
+  - {fileID: 96579579733412903}
+  robotAxis: 0
+  pointType: 0
+  state: 0
+  go: 0
+  roadState: 0
+--- !u!1 &242074118669599987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5730766521768353963}
+  - component: {fileID: 550085773328087427}
+  m_Layer: 0
+  m_Name: RoadPoint (33)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5730766521768353963
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242074118669599987}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.6400001, y: 0.5, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1657082868861102241}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &550085773328087427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242074118669599987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints:
+  - {fileID: 2976153532463205520}
+  robotAxis: 0
+  pointType: 0
+  state: 2
+  go: 0
+  roadState: 0
+--- !u!1 &253347826415823182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4233953598291259451}
+  - component: {fileID: 6777975802144939009}
+  m_Layer: 0
+  m_Name: RoadPoint (12)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4233953598291259451
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253347826415823182}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.06, y: 0.5, z: 5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 638662191343013513}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6777975802144939009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253347826415823182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints: []
+  robotAxis: 0
+  pointType: 0
+  state: 1
+  go: 0
+  roadState: 0
+--- !u!1 &383042721437588778
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4535472862200464770}
+  - component: {fileID: 4939244149898805908}
+  m_Layer: 0
+  m_Name: RoadPoint (13)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4535472862200464770
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383042721437588778}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5, y: 0.5, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 638662191343013513}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4939244149898805908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383042721437588778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints: []
+  robotAxis: 0
+  pointType: 0
+  state: 1
+  go: 0
+  roadState: 0
+--- !u!1 &390075403026721081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7770930768165744506}
+  - component: {fileID: 4724839402986530509}
+  m_Layer: 0
+  m_Name: RoadPoint (22) s (1)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7770930768165744506
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390075403026721081}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2, y: 0.5, z: -9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1657082868861102241}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4724839402986530509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390075403026721081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints:
+  - {fileID: 7105180916337119695}
+  - {fileID: 7940134319722522703}
+  - {fileID: 185552278372115442}
+  robotAxis: 2
+  pointType: 1
+  state: 0
+  go: 0
+  roadState: 0
+--- !u!1 &410680235671421403
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2752914001728041569}
+  - component: {fileID: 8045570403911477585}
+  m_Layer: 0
+  m_Name: RoadPoint (39)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2752914001728041569
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410680235671421403}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.5, y: 0.5, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5858275343186041180}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8045570403911477585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410680235671421403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints: []
+  robotAxis: 0
+  pointType: 0
+  state: 1
+  go: 0
+  roadState: 0
+--- !u!1 &1109606166257350020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3826511915858786736}
+  - component: {fileID: 7940134319722522703}
+  m_Layer: 0
+  m_Name: RoadPoint (31)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3826511915858786736
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109606166257350020}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: 0.5, z: -1.68}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1657082868861102241}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7940134319722522703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109606166257350020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints:
+  - {fileID: 941785321453627763}
+  robotAxis: 0
+  pointType: 0
+  state: 2
+  go: 0
+  roadState: 0
+--- !u!1 &1211374189547910620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1657082868861102241}
+  m_Layer: 11
+  m_Name: RoadPoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1657082868861102241
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211374189547910620}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.10526317, z: 0}
+  m_LocalScale: {x: 0.05741627, y: 0.05741627, z: 0.05741627}
+  m_Children:
+  - {fileID: 1352198057921447649}
+  - {fileID: 5056580536254335514}
+  - {fileID: 8017067724910562167}
+  - {fileID: 4622618876535533141}
+  - {fileID: 5634982933821097352}
+  - {fileID: 5482775447977848220}
+  - {fileID: 4549812413628708935}
+  - {fileID: 6717084990119551481}
+  - {fileID: 4259108197812510033}
+  - {fileID: 2450136687586728934}
+  - {fileID: 2766913249890310526}
+  - {fileID: 7770930768165744506}
+  - {fileID: 3826511915858786736}
+  - {fileID: 8250597522729086004}
+  - {fileID: 5730766521768353963}
+  - {fileID: 778216018985569507}
+  m_Father: {fileID: 8479578888185155937}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1832193892214872545
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5056580536254335514}
+  - component: {fileID: 185552278372115442}
+  m_Layer: 0
+  m_Name: RoadPoint (18)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5056580536254335514
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832193892214872545}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3, y: 0.5, z: -4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1657082868861102241}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &185552278372115442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832193892214872545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints:
+  - {fileID: 8298978172890371278}
+  robotAxis: 0
+  pointType: 0
+  state: 2
+  go: 0
+  roadState: 0
+--- !u!1 &2065041273977547972
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1352198057921447649}
+  - component: {fileID: 8399612655742254319}
+  m_Layer: 0
+  m_Name: RoadPoint (16)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1352198057921447649
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065041273977547972}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4, y: 0.5, z: -3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1657082868861102241}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8399612655742254319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065041273977547972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints:
+  - {fileID: 2976153532463205520}
+  robotAxis: 0
+  pointType: 0
+  state: 2
+  go: 0
+  roadState: 0
+--- !u!1 &2279688455232447650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4622618876535533141}
+  - component: {fileID: 7235843408720305253}
+  m_Layer: 0
+  m_Name: RoadPoint (22)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4622618876535533141
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2279688455232447650}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3, y: 0.5, z: 4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1657082868861102241}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7235843408720305253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2279688455232447650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints:
+  - {fileID: 941785321453627763}
+  robotAxis: 0
+  pointType: 0
+  state: 2
+  go: 0
+  roadState: 0
+--- !u!1 &2316066588820718228
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2834176104331990239}
+  - component: {fileID: 1958911513273063863}
+  m_Layer: 0
+  m_Name: RoadPoint (3)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2834176104331990239
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2316066588820718228}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.5, y: 0.5, z: -3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1703215970286324160}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1958911513273063863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2316066588820718228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints:
+  - {fileID: 185274545751566109}
+  robotAxis: 0
+  pointType: 0
+  state: 0
+  go: 0
+  roadState: 0
+--- !u!1 &2452053720240664074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7804545066751712988}
+  - component: {fileID: 5247613514742095198}
+  m_Layer: 0
+  m_Name: RoadPoint (14)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7804545066751712988
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2452053720240664074}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2, y: 0.5, z: 5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 638662191343013513}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5247613514742095198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2452053720240664074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints:
+  - {fileID: 2405265323163242093}
+  robotAxis: 0
+  pointType: 0
+  state: 0
+  go: 0
+  roadState: 0
+--- !u!1 &2752568865159605281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1427389173778127570}
+  - component: {fileID: 3311107805867002106}
+  m_Layer: 0
+  m_Name: RoadPoint (38)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1427389173778127570
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2752568865159605281}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2, y: 0.5, z: 7.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5858275343186041180}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3311107805867002106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2752568865159605281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints: []
+  robotAxis: 0
+  pointType: 0
+  state: 1
+  go: 0
+  roadState: 0
+--- !u!1 &2799757794539662179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8682319769956358555}
+  - component: {fileID: 96579579733412903}
+  m_Layer: 0
+  m_Name: RoadPoint (2)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8682319769956358555
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2799757794539662179}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.5, y: 0.5, z: -3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1703215970286324160}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &96579579733412903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2799757794539662179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints: []
+  robotAxis: 0
+  pointType: 0
+  state: 1
+  go: 0
+  roadState: 0
+--- !u!1 &2900833636207492180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1703215970286324160}
+  m_Layer: 0
+  m_Name: RoadPoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1703215970286324160
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2900833636207492180}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.08612452, z: 0}
+  m_LocalScale: {x: 0.09569379, y: 0.09569379, z: 0.09569378}
+  m_Children:
+  - {fileID: 2073662633707275580}
+  - {fileID: 8682319769956358555}
+  - {fileID: 2834176104331990239}
+  - {fileID: 6288131927952312338}
+  m_Father: {fileID: 4417865642981041463}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2962499430018328316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3819955100415316615}
+  - component: {fileID: 913311434931028294}
+  m_Layer: 0
+  m_Name: RoadPoint (10)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3819955100415316615
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2962499430018328316}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: 0.5, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 638662191343013513}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &913311434931028294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2962499430018328316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints:
+  - {fileID: 381726816354473297}
+  robotAxis: 0
+  pointType: 0
+  state: 2
+  go: 0
+  roadState: 0
+--- !u!1 &3099773003968671803
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2450136687586728934}
+  - component: {fileID: 941785321453627763}
+  m_Layer: 0
+  m_Name: RoadPoint (29)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2450136687586728934
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3099773003968671803}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.5, y: 0.5, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1657082868861102241}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &941785321453627763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3099773003968671803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints: []
+  robotAxis: 0
+  pointType: 0
+  state: 1
+  go: 0
+  roadState: 0
+--- !u!1 &3319999359249843840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4549812413628708935}
+  - component: {fileID: 8298978172890371278}
+  m_Layer: 0
+  m_Name: RoadPoint (28)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4549812413628708935
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3319999359249843840}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.5, y: 0.5, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1657082868861102241}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8298978172890371278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3319999359249843840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints: []
+  robotAxis: 0
+  pointType: 0
+  state: 1
+  go: 0
+  roadState: 0
+--- !u!1 &3512612762217550654
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 491667057196642751}
+  - component: {fileID: 3024072235911003470}
+  m_Layer: 0
+  m_Name: RoadPoint (34) s
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &491667057196642751
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3512612762217550654}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9, y: 0.5, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5858275343186041180}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3024072235911003470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3512612762217550654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints:
+  - {fileID: 5881878003937708097}
+  - {fileID: 7002436352882533813}
+  robotAxis: 1
+  pointType: 1
+  state: 0
+  go: 0
+  roadState: 0
+--- !u!1 &3695869415021445919
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 638662191343013513}
+  m_Layer: 11
+  m_Name: RoadPoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &638662191343013513
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3695869415021445919}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.0995215, z: 0.00068890426}
+  m_LocalScale: {x: 0.07177034, y: 0.07177033, z: 0.07177033}
+  m_Children:
+  - {fileID: 8552561260441606206}
+  - {fileID: 3819955100415316615}
+  - {fileID: 6141079329355911948}
+  - {fileID: 4233953598291259451}
+  - {fileID: 4535472862200464770}
+  - {fileID: 7804545066751712988}
+  - {fileID: 5133364754421387935}
+  - {fileID: 1384905140139496136}
+  m_Father: {fileID: 4831451349720792679}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3758221080601077032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5326546175662850050}
+  - component: {fileID: 226320734719593771}
+  m_Layer: 0
+  m_Name: RoadPoint (44)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5326546175662850050
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3758221080601077032}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.69, y: 0.5, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5858275343186041180}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &226320734719593771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3758221080601077032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints:
+  - {fileID: 3311107805867002106}
+  robotAxis: 0
+  pointType: 0
+  state: 2
+  go: 0
+  roadState: 0
+--- !u!1 &3773461375745667677
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9102993578778948647}
+  - component: {fileID: 6585555650291908115}
+  m_Layer: 0
+  m_Name: RoadPoint (35) s
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9102993578778948647
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3773461375745667677}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -9, y: 0.5, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5858275343186041180}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6585555650291908115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3773461375745667677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints:
+  - {fileID: 5101114047583967918}
+  - {fileID: 226320734719593771}
+  robotAxis: 1
+  pointType: 1
+  state: 0
+  go: 0
+  roadState: 0
+--- !u!1 &3801348635237703809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7996581209740512613}
+  - component: {fileID: 2597185562853025002}
+  m_Layer: 0
+  m_Name: RoadPoint (34)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7996581209740512613
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3801348635237703809}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2, y: 0.5, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5858275343186041180}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2597185562853025002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3801348635237703809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints:
+  - {fileID: 8045570403911477585}
+  robotAxis: 0
+  pointType: 0
+  state: 2
+  go: 0
+  roadState: 0
+--- !u!1 &3809688264069339996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2766913249890310526}
+  - component: {fileID: 2976153532463205520}
+  m_Layer: 0
+  m_Name: RoadPoint (30)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2766913249890310526
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3809688264069339996}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2, y: 0.5, z: -7.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1657082868861102241}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2976153532463205520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3809688264069339996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints: []
+  robotAxis: 0
+  pointType: 0
+  state: 1
+  go: 0
+  roadState: 0
+--- !u!1 &3933877986306259046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5760214286416399328}
+  - component: {fileID: 7704885152839456074}
+  m_Layer: 0
+  m_Name: RoadPoint (37)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5760214286416399328
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3933877986306259046}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3, y: 0.5, z: 4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5858275343186041180}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7704885152839456074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3933877986306259046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints:
+  - {fileID: 7002436352882533813}
+  robotAxis: 0
+  pointType: 0
+  state: 2
+  go: 0
+  roadState: 0
+--- !u!1 &4004256230248115494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6717084990119551481}
+  - component: {fileID: 164390244105238844}
+  m_Layer: 0
+  m_Name: RoadPoint (18) s (1)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6717084990119551481
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4004256230248115494}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9, y: 0.5, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1657082868861102241}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &164390244105238844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4004256230248115494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints:
+  - {fileID: 941785321453627763}
+  - {fileID: 550085773328087427}
+  - {fileID: 8078757232584963839}
+  robotAxis: 1
+  pointType: 1
+  state: 0
+  go: 0
+  roadState: 0
+--- !u!1 &4182713075463870441
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8250597522729086004}
+  - component: {fileID: 6613844439795979382}
+  m_Layer: 0
+  m_Name: RoadPoint (32)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8250597522729086004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4182713075463870441}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1, y: 0.5, z: 1.5300001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1657082868861102241}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6613844439795979382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4182713075463870441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints:
+  - {fileID: 8298978172890371278}
+  robotAxis: 0
+  pointType: 0
+  state: 2
+  go: 0
+  roadState: 0
+--- !u!1 &4191528637322935036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 690474822702737019}
+  - component: {fileID: 373680163917564706}
+  m_Layer: 0
+  m_Name: RoadPoint (43)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &690474822702737019
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4191528637322935036}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1, y: 0.5, z: 1.53}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5858275343186041180}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &373680163917564706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4191528637322935036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints:
+  - {fileID: 2597185562853025002}
+  robotAxis: 0
+  pointType: 0
+  state: 2
+  go: 0
+  roadState: 0
+--- !u!1 &4193631141729733403
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4259108197812510033}
+  - component: {fileID: 4189801636448528367}
+  m_Layer: 0
+  m_Name: RoadPoint (19) s (1)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4259108197812510033
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4193631141729733403}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -9, y: 0.5, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1657082868861102241}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4189801636448528367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4193631141729733403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints:
+  - {fileID: 8298978172890371278}
+  - {fileID: 4192065404948224590}
+  - {fileID: 8399612655742254319}
+  robotAxis: 1
+  pointType: 1
+  state: 0
+  go: 0
+  roadState: 0
+--- !u!1 &4367631131598277671
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7205428533376630489}
+  - component: {fileID: 7002436352882533813}
+  m_Layer: 0
+  m_Name: RoadPoint (41)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7205428533376630489
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4367631131598277671}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.5, y: 0.5, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5858275343186041180}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7002436352882533813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4367631131598277671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints: []
+  robotAxis: 0
+  pointType: 0
+  state: 1
+  go: 0
+  roadState: 0
+--- !u!1 &5009655385779131767
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8017067724910562167}
+  - component: {fileID: 8078757232584963839}
+  m_Layer: 0
+  m_Name: RoadPoint (19)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8017067724910562167
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5009655385779131767}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4, y: 0.5, z: 3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1657082868861102241}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8078757232584963839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5009655385779131767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints:
+  - {fileID: 7105180916337119695}
+  robotAxis: 0
+  pointType: 0
+  state: 2
+  go: 0
+  roadState: 0
+--- !u!114 &3625077050087176172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4993245208122112210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fcd6cdaee63ed0478b15dc232dd4fbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  descriptor: {fileID: 11400000, guid: b0a7d9dc985a84024935c2b0d19d806e, type: 2}
+  state:
+    uuid: 0
+    category: 0
+  Neighbors:
+    Front: []
+    Back: []
+    Right: []
+    Left: []
+  roadTiles:
+    straight: {fileID: 4417865642981341463}
+    turn: {fileID: 4831451349721276999}
+    threeWay: {fileID: 8274323597456437956}
+    fourWay: {fileID: 8479578888184925505}
+  RoadPoints: []
+--- !u!1 &5438993865291258165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5475953866390625629}
+  - component: {fileID: 5101114047583967918}
+  m_Layer: 0
+  m_Name: RoadPoint (32)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5475953866390625629
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5438993865291258165}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2, y: 0.5, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5858275343186041180}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5101114047583967918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5438993865291258165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints:
+  - {fileID: 8045570403911477585}
+  robotAxis: 0
+  pointType: 0
+  state: 2
+  go: 0
+  roadState: 0
+--- !u!1 &5569635210559166092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5634982933821097352}
+  - component: {fileID: 7105180916337119695}
+  m_Layer: 0
+  m_Name: RoadPoint (27)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5634982933821097352
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5569635210559166092}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2, y: 0.5, z: 7.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1657082868861102241}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7105180916337119695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5569635210559166092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints: []
+  robotAxis: 0
+  pointType: 0
+  state: 1
+  go: 0
+  roadState: 0
+--- !u!1 &5677630190134719378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3395336781540576209}
+  - component: {fileID: 6713771610302676065}
+  m_Layer: 0
+  m_Name: RoadPoint (32) s
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3395336781540576209
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5677630190134719378}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2, y: 0.5, z: 9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5858275343186041180}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6713771610302676065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5677630190134719378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints:
+  - {fileID: 7704885152839456074}
+  - {fileID: 373680163917564706}
+  robotAxis: 2
+  pointType: 1
+  state: 0
+  go: 0
+  roadState: 0
+--- !u!1 &5915189724902375865
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5482775447977848220}
+  - component: {fileID: 7659900165433962340}
+  m_Layer: 0
+  m_Name: RoadPoint (16) s (1)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5482775447977848220
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5915189724902375865}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2, y: 0.5, z: 9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1657082868861102241}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7659900165433962340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5915189724902375865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints:
+  - {fileID: 2976153532463205520}
+  - {fileID: 6613844439795979382}
+  - {fileID: 7235843408720305253}
+  robotAxis: 2
+  pointType: 1
+  state: 0
+  go: 0
+  roadState: 0
+--- !u!1 &6334560774247959258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5858275343186041180}
+  m_Layer: 11
+  m_Name: RoadPoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5858275343186041180
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6334560774247959258}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.10047848, z: 0}
+  m_LocalScale: {x: 0.05741627, y: 0.05741627, z: 0.05741627}
+  m_Children:
+  - {fileID: 5475953866390625629}
+  - {fileID: 7996581209740512613}
+  - {fileID: 2558952043788652093}
+  - {fileID: 5760214286416399328}
+  - {fileID: 1427389173778127570}
+  - {fileID: 3395336781540576209}
+  - {fileID: 2752914001728041569}
+  - {fileID: 491667057196642751}
+  - {fileID: 9102993578778948647}
+  - {fileID: 7205428533376630489}
+  - {fileID: 690474822702737019}
+  - {fileID: 5326546175662850050}
+  m_Father: {fileID: 8274323597456207588}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6516507042685618751
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 778216018985569507}
+  - component: {fileID: 4192065404948224590}
+  m_Layer: 0
+  m_Name: RoadPoint (34)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &778216018985569507
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6516507042685618751}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.6900002, y: 0.5, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1657082868861102241}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4192065404948224590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6516507042685618751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints:
+  - {fileID: 7105180916337119695}
+  robotAxis: 0
+  pointType: 0
+  state: 2
+  go: 0
+  roadState: 0
+--- !u!1 &6838522943523864796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5133364754421387935}
+  - component: {fileID: 381726816354473297}
+  m_Layer: 0
+  m_Name: RoadPoint (15)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5133364754421387935
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6838522943523864796}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2, y: 0.5, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 638662191343013513}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &381726816354473297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6838522943523864796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints:
+  - {fileID: 6777975802144939009}
+  robotAxis: 0
+  pointType: 0
+  state: 2
+  go: 0
+  roadState: 0
+--- !u!1 &7780730869198639935
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2558952043788652093}
+  - component: {fileID: 5881878003937708097}
+  m_Layer: 0
+  m_Name: RoadPoint (35)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2558952043788652093
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7780730869198639935}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4, y: 0.5, z: 3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5858275343186041180}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5881878003937708097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7780730869198639935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints:
+  - {fileID: 3311107805867002106}
+  robotAxis: 0
+  pointType: 0
+  state: 2
+  go: 0
+  roadState: 0
+--- !u!1 &7842238051574347906
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6141079329355911948}
+  - component: {fileID: 4476374689175523257}
+  m_Layer: 0
+  m_Name: RoadPoint (11)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6141079329355911948
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7842238051574347906}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.94, y: 0.5, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 638662191343013513}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4476374689175523257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7842238051574347906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints:
+  - {fileID: 4034751223626248633}
+  robotAxis: 0
+  pointType: 0
+  state: 0
+  go: 0
+  roadState: 0
+--- !u!1 &8100592849878321593
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6288131927952312338}
+  - component: {fileID: 185274545751566109}
+  m_Layer: 0
+  m_Name: RoadPoint (4)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6288131927952312338
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8100592849878321593}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.5, y: 0.5, z: 3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1703215970286324160}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &185274545751566109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8100592849878321593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints: []
+  robotAxis: 0
+  pointType: 0
+  state: 1
+  go: 0
+  roadState: 0
+--- !u!114 &358987088766698526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8274323597456437956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e95d0f2e03669418ba8e38bc2a368dc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  intersectionType: 1
+  roadPoints:
+  - {fileID: 3024072235911003470}
+  - {fileID: 6585555650291908115}
+  - {fileID: 6713771610302676065}
+--- !u!114 &3269510965105698145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8479578888184925505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e95d0f2e03669418ba8e38bc2a368dc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  intersectionType: 0
+  roadPoints:
+  - {fileID: 7659900165433962340}
+  - {fileID: 4724839402986530509}
+  - {fileID: 164390244105238844}
+  - {fileID: 4189801636448528367}
+--- !u!1 &8547158244446189445
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1384905140139496136}
+  - component: {fileID: 4034751223626248633}
+  m_Layer: 0
+  m_Name: RoadPoint (16)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1384905140139496136
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8547158244446189445}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1, y: 0.5, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 638662191343013513}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4034751223626248633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8547158244446189445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints:
+  - {fileID: 913311434931028294}
+  robotAxis: 0
+  pointType: 0
+  state: 2
+  go: 0
+  roadState: 0
+--- !u!1 &8592804925520227854
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8552561260441606206}
+  - component: {fileID: 2405265323163242093}
+  m_Layer: 0
+  m_Name: RoadPoint (9)
+  m_TagString: RoadPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8552561260441606206
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8592804925520227854}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3, y: 0.5, z: 3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 638662191343013513}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2405265323163242093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8592804925520227854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e63825ac1a4420da9a8eab2e22ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedPoints:
+  - {fileID: 4939244149898805908}
+  robotAxis: 0
+  pointType: 0
+  state: 2
+  go: 0
+  roadState: 0
+--- !u!1001 &4417865642981441463
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4993245208122112211}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 8932ea142dbf90e4aa7456064c73d465, type: 3}
+      propertyPath: m_Name
+      value: Straight
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8932ea142dbf90e4aa7456064c73d465, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8932ea142dbf90e4aa7456064c73d465, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8932ea142dbf90e4aa7456064c73d465, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.045
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8932ea142dbf90e4aa7456064c73d465, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.045
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8932ea142dbf90e4aa7456064c73d465, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.045
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8932ea142dbf90e4aa7456064c73d465, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8932ea142dbf90e4aa7456064c73d465, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8932ea142dbf90e4aa7456064c73d465, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8932ea142dbf90e4aa7456064c73d465, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8932ea142dbf90e4aa7456064c73d465, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8932ea142dbf90e4aa7456064c73d465, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8932ea142dbf90e4aa7456064c73d465, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8932ea142dbf90e4aa7456064c73d465, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8932ea142dbf90e4aa7456064c73d465, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8932ea142dbf90e4aa7456064c73d465, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8932ea142dbf90e4aa7456064c73d465, type: 3}
+--- !u!4 &4417865642981041463 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 8932ea142dbf90e4aa7456064c73d465,
+    type: 3}
+  m_PrefabInstance: {fileID: 4417865642981441463}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4417865642981341463 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 8932ea142dbf90e4aa7456064c73d465,
+    type: 3}
+  m_PrefabInstance: {fileID: 4417865642981441463}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4831451349721179367
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4993245208122112211}
+    m_Modifications:
+    - target: {fileID: 100000, guid: f6640918e00d5984ebf4636f8b5a9084, type: 3}
+      propertyPath: m_Name
+      value: Corner
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f6640918e00d5984ebf4636f8b5a9084, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f6640918e00d5984ebf4636f8b5a9084, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f6640918e00d5984ebf4636f8b5a9084, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.045
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f6640918e00d5984ebf4636f8b5a9084, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.045
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f6640918e00d5984ebf4636f8b5a9084, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.045
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f6640918e00d5984ebf4636f8b5a9084, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f6640918e00d5984ebf4636f8b5a9084, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f6640918e00d5984ebf4636f8b5a9084, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f6640918e00d5984ebf4636f8b5a9084, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f6640918e00d5984ebf4636f8b5a9084, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f6640918e00d5984ebf4636f8b5a9084, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f6640918e00d5984ebf4636f8b5a9084, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f6640918e00d5984ebf4636f8b5a9084, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f6640918e00d5984ebf4636f8b5a9084, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f6640918e00d5984ebf4636f8b5a9084, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f6640918e00d5984ebf4636f8b5a9084, type: 3}
+--- !u!4 &4831451349720792679 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: f6640918e00d5984ebf4636f8b5a9084,
+    type: 3}
+  m_PrefabInstance: {fileID: 4831451349721179367}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4831451349721276999 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: f6640918e00d5984ebf4636f8b5a9084,
+    type: 3}
+  m_PrefabInstance: {fileID: 4831451349721179367}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5018682481158413459
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 67100101652669504, guid: 341246de4c5e4e44581c4676cc4a551b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 67100101652669504, guid: 341246de4c5e4e44581c4676cc4a551b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 67100101652669504, guid: 341246de4c5e4e44581c4676cc4a551b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 67100101652669504, guid: 341246de4c5e4e44581c4676cc4a551b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 67100101652669504, guid: 341246de4c5e4e44581c4676cc4a551b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 67100101652669504, guid: 341246de4c5e4e44581c4676cc4a551b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 67100101652669504, guid: 341246de4c5e4e44581c4676cc4a551b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 67100101652669504, guid: 341246de4c5e4e44581c4676cc4a551b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 67100101652669504, guid: 341246de4c5e4e44581c4676cc4a551b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 67100101652669504, guid: 341246de4c5e4e44581c4676cc4a551b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 67100101652669504, guid: 341246de4c5e4e44581c4676cc4a551b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 67100101652669505, guid: 341246de4c5e4e44581c4676cc4a551b,
+        type: 3}
+      propertyPath: m_Name
+      value: TownRoad
+      objectReference: {fileID: 0}
+    - target: {fileID: 67100101652669505, guid: 341246de4c5e4e44581c4676cc4a551b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1044990012581500976, guid: 341246de4c5e4e44581c4676cc4a551b,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1044990012581500976, guid: 341246de4c5e4e44581c4676cc4a551b,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1044990012581500976, guid: 341246de4c5e4e44581c4676cc4a551b,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540649697702534600, guid: 341246de4c5e4e44581c4676cc4a551b,
+        type: 3}
+      propertyPath: m_Name
+      value: Collider
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540649697702534600, guid: 341246de4c5e4e44581c4676cc4a551b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540649697702534600, guid: 341246de4c5e4e44581c4676cc4a551b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543431977146732285, guid: 341246de4c5e4e44581c4676cc4a551b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5454940338883529275, guid: 341246de4c5e4e44581c4676cc4a551b,
+        type: 3}
+      propertyPath: info.type
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 5454940338883529275, guid: 341246de4c5e4e44581c4676cc4a551b,
+        type: 3}
+      propertyPath: info.category
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7406923813382546412, guid: 341246de4c5e4e44581c4676cc4a551b,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -8634060567236447461, guid: a86dbdc354fb1564c90e67d111038de2,
+        type: 3}
+    - target: {fileID: 7620755736934224736, guid: 341246de4c5e4e44581c4676cc4a551b,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7620755736934224736, guid: 341246de4c5e4e44581c4676cc4a551b,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7620755736934224736, guid: 341246de4c5e4e44581c4676cc4a551b,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8726062103905831061, guid: 341246de4c5e4e44581c4676cc4a551b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8974393259431054351, guid: 341246de4c5e4e44581c4676cc4a551b,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5454940338883529275, guid: 341246de4c5e4e44581c4676cc4a551b, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 341246de4c5e4e44581c4676cc4a551b, type: 3}
+--- !u!1 &4993245208122112210 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 67100101652669505, guid: 341246de4c5e4e44581c4676cc4a551b,
+    type: 3}
+  m_PrefabInstance: {fileID: 5018682481158413459}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4993245208122112211 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 67100101652669504, guid: 341246de4c5e4e44581c4676cc4a551b,
+    type: 3}
+  m_PrefabInstance: {fileID: 5018682481158413459}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8274323597456340068
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4993245208122112211}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 3fe2a9e915a47b74cb2d6c36f19a09ab, type: 3}
+      propertyPath: m_Name
+      value: TIntersection
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3fe2a9e915a47b74cb2d6c36f19a09ab, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3fe2a9e915a47b74cb2d6c36f19a09ab, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3fe2a9e915a47b74cb2d6c36f19a09ab, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.045
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3fe2a9e915a47b74cb2d6c36f19a09ab, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.045
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3fe2a9e915a47b74cb2d6c36f19a09ab, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.045
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3fe2a9e915a47b74cb2d6c36f19a09ab, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3fe2a9e915a47b74cb2d6c36f19a09ab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3fe2a9e915a47b74cb2d6c36f19a09ab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3fe2a9e915a47b74cb2d6c36f19a09ab, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3fe2a9e915a47b74cb2d6c36f19a09ab, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3fe2a9e915a47b74cb2d6c36f19a09ab, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3fe2a9e915a47b74cb2d6c36f19a09ab, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3fe2a9e915a47b74cb2d6c36f19a09ab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3fe2a9e915a47b74cb2d6c36f19a09ab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3fe2a9e915a47b74cb2d6c36f19a09ab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400000, guid: 3fe2a9e915a47b74cb2d6c36f19a09ab, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3fe2a9e915a47b74cb2d6c36f19a09ab, type: 3}
+--- !u!4 &8274323597456207588 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 3fe2a9e915a47b74cb2d6c36f19a09ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 8274323597456340068}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8274323597456437956 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 3fe2a9e915a47b74cb2d6c36f19a09ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 8274323597456340068}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8479578888185023457
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4993245208122112211}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 1b99e8b50fe0b94479faaad935a36a60, type: 3}
+      propertyPath: m_Name
+      value: Intersection
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1b99e8b50fe0b94479faaad935a36a60, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1b99e8b50fe0b94479faaad935a36a60, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1b99e8b50fe0b94479faaad935a36a60, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.045
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1b99e8b50fe0b94479faaad935a36a60, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.045
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1b99e8b50fe0b94479faaad935a36a60, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.045
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1b99e8b50fe0b94479faaad935a36a60, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1b99e8b50fe0b94479faaad935a36a60, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1b99e8b50fe0b94479faaad935a36a60, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1b99e8b50fe0b94479faaad935a36a60, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1b99e8b50fe0b94479faaad935a36a60, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1b99e8b50fe0b94479faaad935a36a60, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1b99e8b50fe0b94479faaad935a36a60, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1b99e8b50fe0b94479faaad935a36a60, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1b99e8b50fe0b94479faaad935a36a60, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1b99e8b50fe0b94479faaad935a36a60, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1b99e8b50fe0b94479faaad935a36a60, type: 3}
+--- !u!1 &8479578888184925505 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 1b99e8b50fe0b94479faaad935a36a60,
+    type: 3}
+  m_PrefabInstance: {fileID: 8479578888185023457}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8479578888185155937 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 1b99e8b50fe0b94479faaad935a36a60,
+    type: 3}
+  m_PrefabInstance: {fileID: 8479578888185023457}
+  m_PrefabAsset: {fileID: 0}
